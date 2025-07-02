@@ -65,7 +65,7 @@ function App() {
         };
 
         try {
-            const response = await fetch('http://localhost:5001/api/bills', {
+            const response = await fetch('https://balajimawa-4.onrender.com:5001/api/bills', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(billData),
