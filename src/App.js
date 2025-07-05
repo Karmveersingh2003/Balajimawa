@@ -118,7 +118,7 @@ function App() {
                             </div>
                             <div className="form-group">
                                 <label>Quantity</label>
-                                <input type="number" name="qty" value={item.qty} onChange={(e) => handleItemChange(index, e)} placeholder="e.g., 1.5"/>
+                                <input type="text" name="qty" value={item.qty} onChange={(e) => handleItemChange(index, e)} placeholder="e.g., 1.5"/>
                             </div>
                             <div className="form-group">
                                 <label>Rate (₹)</label>
