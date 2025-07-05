@@ -186,10 +186,6 @@ function App() {
                     </table>
                 </section>
                 <div className="bill-summary">
-                    <div className="invoice-footer">
-                        <img src={signatureImage} alt="Signature" className="signature-img" />
-                        <p>Authorised Signatory</p>
-                    </div>
                     <table className="totals-table">
                         <tbody>
                             <tr><td className="label">Sub Total:</td><td className="value">₹{subTotal.toFixed(2)}</td></tr>
@@ -198,6 +194,10 @@ function App() {
                             <tr className="grand-total"><td className="label">Grand Total:</td><td className="value">₹{grandTotal.toFixed(2)}</td></tr>
                         </tbody>
                     </table>
+                    <div className="invoice-footer">
+                        <img src={signatureImage} alt="Signature" className="signature-img" />
+                        <p>Authorised Signatory</p>
+                    </div>
                 </div>
                  <p id='rupee'>₹🆙PhonePe Number: 9829572755 </p>
             </div>
