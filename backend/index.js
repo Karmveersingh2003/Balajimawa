@@ -11,7 +11,7 @@ app.use(express.json()); // Allows server to accept JSON data in request body
 
 // --- MongoDB Connection ---
 // Make sure your MongoDB server is running!
-mongoose.connect('mongodb://localhost:27017/billingApp', {
+mongoose.connect('mongodb+srv://karmveersingh2003:HhimbEtXdWSaxoNG@cluster0.1ani3zw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
